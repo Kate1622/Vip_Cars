@@ -61,10 +61,15 @@ DB_PASSWORD=
 php artisan migrate:fresh --seed
 ```
 
-7. **Configurar el archivo .env**
+7. **Ejecutando Sistema**
 
 ```bash
 php artisan serve
 ```
+
+7. **Credenciales para entrar al sistema**
+
+Usuario: admin@gmail.com
+Password: 123456789
 
 
