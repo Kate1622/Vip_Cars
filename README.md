@@ -22,3 +22,52 @@ Antes de comenzar, asegúrate de tener instalado lo siguiente en tu sistema:
 ```bash
 git clone https://github.com/tu-usuario/tu-repositorio.git
 cd tu-repositorio
+
+1. **Clonar el repositorio**
+
+```bash
+git clone https://github.com/tu-usuario/tu-repositorio.git
+cd tu-repositorio
+
+
+2. **Instalar dependencias de PHP con Composer**
+
+```bash
+composer install
+
+
+3. **Instalar dependencias de frontend con npm**
+
+```bash
+npm install
+
+4. **Copiar archivo de entorno y generar clave**
+
+```bash
+cp .env.example .env
+php artisan key:generate
+
+
+5. **Configurar el archivo .env**
+
+```bash
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=vipcars
+DB_USERNAME=root
+DB_PASSWORD=
+
+
+6. **Ejecutar migraciones**
+
+```bash
+php artisan migrate:fresh --seed
+
+7. **Configurar el archivo .env**
+
+```bash
+php artisan serve
+
+
+
