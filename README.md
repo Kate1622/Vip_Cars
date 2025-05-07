@@ -49,6 +49,7 @@ php artisan key:generate
 
 
 5. **Configurar el archivo .env**
+    No olvidar crear la BD vipcars
 
 ```bash
 DB_CONNECTION=mysql
