@@ -3,7 +3,7 @@
   <a href="/home" class="brand-link navbar-light">
       
       <span class="brand-text font-weight-light">
-          <img src="{{ asset('images/login/logo.png') }}" alt="AdminLTE Logo" style="height:30px"> </span>
+          <img src="{{ asset('images/login/logo.jpg') }}" alt="AdminLTE Logo" style="height:30px"> </span>
   </a>
 
   <!-- Sidebar -->

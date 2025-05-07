@@ -3,7 +3,7 @@
 <head>
     <meta http-equiv="content-type" content="text/html;charset=UTF-8">
     <meta charset="utf-8">
-    <title>Acceso al Sistema :: MTC</title>
+    <title>Acceso al Sistema :: KATE</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -59,7 +59,7 @@
         </div>
         <div class="login-container bg-white">
             <div class="p-l-50 m-l-20 p-r-50 m-r-20 p-t-50 m-t-30 sm-p-l-15 sm-p-r-15 sm-p-t-40">
-                <img style="margin-left: 0" src="/images/login/logo.png" alt="logo" width="" height="70" />
+                <img style="margin-left: 0" src="/images/login/logo.jpg" alt="logo" width="" height="70" />
 
                 <style>
                     .zocial-link {
@@ -125,20 +125,7 @@
                     </form>
                 </div>
 
-                <div class="pull-bottom sm-pull-bottom">
-                    <div class="m-b-30 p-r-80 sm-m-t-20 sm-p-r-15 sm-p-b-20 clearfix">
-                        <div class="col-sm-12 no-padding m-t-10">
-                            <p>
-                                <small>
-                                    Ingresa a la Intranet con tus credenciales del
-                                    <i class="fa fa-desktop fa-fw fa-lg"></i>
-                                    <b>ERP </b>.<br />Soporte al anexo
-                                    <i class="fas fa-info-circle"></i> <a href="https://wa.me/51929386665/?text=Hola%20Necesito%20ayuda" target="_blank"><b>A1E9M9A8</b>.</a>
-                                </small>
-                            </p>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
         </div>
     </div>

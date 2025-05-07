@@ -15,6 +15,8 @@ class DatabaseSeeder extends Seeder
             PersonalTableSeeder::class,
             UsersTableSeeder::class,
             RoleAndPermissionSeeder::class,
+            ClienteSeeder::class,
+            VehiculoSeeder::class,
         ]);
     }
 }
