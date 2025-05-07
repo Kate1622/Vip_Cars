@@ -20,34 +20,28 @@ Antes de comenzar, asegúrate de tener instalado lo siguiente en tu sistema:
 1. **Clonar el repositorio**
 
 ```bash
-git clone https://github.com/tu-usuario/tu-repositorio.git
-cd tu-repositorio
+git clone https://github.com/Kate1622/Vip_Cars.git
+cd Vip_Cars
 
-1. **Clonar el repositorio**
-
-```bash
-git clone https://github.com/tu-usuario/tu-repositorio.git
-cd tu-repositorio
-
-
+```
 2. **Instalar dependencias de PHP con Composer**
 
 ```bash
 composer install
 
-
+```
 3. **Instalar dependencias de frontend con npm**
 
 ```bash
 npm install
-
+```
 4. **Copiar archivo de entorno y generar clave**
 
 ```bash
 cp .env.example .env
 php artisan key:generate
 
-
+```
 5. **Configurar el archivo .env**
     No olvidar crear la BD vipcars
 
@@ -59,16 +53,18 @@ DB_DATABASE=vipcars
 DB_USERNAME=root
 DB_PASSWORD=
 
+```
 
 6. **Ejecutar migraciones**
 
 ```bash
 php artisan migrate:fresh --seed
+```
 
 7. **Configurar el archivo .env**
 
 ```bash
 php artisan serve
-
+```
 
 
